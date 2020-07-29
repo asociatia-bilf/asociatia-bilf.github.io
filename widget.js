@@ -10,7 +10,7 @@
             cfg = $("#float_fb").data(),
             iframe = 'https://www.facebook.com/v2.9/plugins/page.php?',
             params = [],
-            png = $("#float_fb").attr('src').replace(/\?.*/, '').replace(/[\w\.]+$/, "//res.cloudinary.com/onepage/image/upload/v1572464052/user_14215/tyabh65kmi03ckscbb5i.png")
+            png = $("#float_fb").attr('src').replace(/\?.*/, '').replace(/[\w\.]+$/, "widget.png")
             ;
         var val;
         for(var k in defaults)
@@ -25,7 +25,7 @@
         var status_ = 'hide'; // showing, hiding, show, hide
         $("body").append(
             ['<div id="float_fb_plugin" style="visibility:hidden">',
-            '<img src="'+png+'" style="cursor:pointer;position:absolute;margin-left:-47px;" border=0 />',
+            '<img src="'+ png +'" style="cursor:pointer;position:absolute;margin-left:-47px;" border=0 />',
             '<iframe scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
             '<a target="_blank" ',
                 'style="width:' + cfg.container_width + 'px;height:24px;line-height:24px; margin:0;padding:0;',
