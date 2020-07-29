@@ -10,7 +10,7 @@
             cfg = $("#float_fb").data(),
             iframe = 'https://www.facebook.com/v2.9/plugins/page.php?',
             params = [],
-            png = $("#float_fb").attr('src').replace(/\?.*/, '').replace(/[\w\.]+$/, "widget.png")
+            png = $("#float_fb").attr('src').replace(/\?.*/, '').replace(/[\w\.]+$/, "//res.cloudinary.com/onepage/image/upload/v1572464052/user_14215/tyabh65kmi03ckscbb5i.png")
             ;
         var val;
         for(var k in defaults)
