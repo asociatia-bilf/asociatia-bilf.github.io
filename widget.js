@@ -29,7 +29,7 @@
             '<iframe scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
             '<a target="_blank" ',
                 'style="width:' + cfg.container_width + 'px;height:24px;line-height:24px; margin:0;padding:0;',
-                'padding-left:8px;position:absolute;bottom:-15px;background-color:#f6f7f8;',
+                'padding-left:8px;position:absolute;bottom:-150px;background-color:#f6f7f8;',
                 'text-align:left;font-size:12px;color:gray;display:block;"',
                 ' href=""></a>',
             '</div>'].join(''));
