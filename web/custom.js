@@ -8,7 +8,7 @@
 
     // AOS ANIMATION
     AOS.init({
-      disable: 'mobile',
+      disable: 'none',
       duration: 800,
       anchorPlacement: 'center-bottom'
     });
