@@ -10,7 +10,7 @@
             cfg = $("#float_fb").data(),
             iframe = 'https://www.facebook.com/v2.9/plugins/page.php?',
             params = [],
-            png = $("#float_fb").attr('src').replace(/\?.*/, '').replace(/[\w\.]+$/, "widget.png")
+            png = $("#float_fb").attr('src').replace(/\?.*/, '').replace(/[\w\.]+$/, "https://icon-library.com/images/small-facebook-like-icon/small-facebook-like-icon-25.jpg")
             ;
         var val;
         for(var k in defaults)
