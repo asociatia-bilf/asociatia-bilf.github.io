@@ -25,7 +25,7 @@
         var status_ = 'hide'; // showing, hiding, show, hide
         $("body").append(
             ['<div id="float_fb_plugin" style="visibility:hidden">',
-            '<img src="' + png + '" style="cursor:pointer;position:absolute;margin-left:-47px;" border=0 size:12px />',
+            '<img src="' + png + '" style="cursor:pointer;position:absolute;margin-left:-147px;" border=0 size:12px />',
             '<iframe scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
             '<a target="_blank" ',
                 'style="width:' + cfg.container_width + 'px;height:24px;line-height:24px; margin:0;padding:0;',
