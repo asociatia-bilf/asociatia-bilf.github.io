@@ -1,8 +1,8 @@
 (function(){
     var load_float_fb = function($){
         var defaults = {
-                container_width:280,
-                height:224,
+                container_width:180,
+                height:124,
                 show_facepile:'true',
                 tabs:'',
                 href:''
