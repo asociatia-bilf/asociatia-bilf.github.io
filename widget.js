@@ -5,7 +5,7 @@
                 height:224,
                 show_facepile:'true',
                 tabs:'',
-                href:'//res.cloudinary.com/onepage/image/upload/v1572464052/user_14215/tyabh65kmi03ckscbb5i.png'
+                href:''
             },
             cfg = $("#float_fb").data(),
             iframe = 'https://www.facebook.com/v2.9/plugins/page.php?',
