@@ -10,7 +10,7 @@
             cfg = $("#float_fb").data(),
             iframe = 'https://www.facebook.com/v2.9/plugins/page.php?',
             params = [],
-            png = $("#float_fb").attr('src').replace(/\?.*/, '').replace(/[\w\.]+$/, "https://res.cloudinary.com/onepage/image/upload/v1572464052/user_14215/tyabh65kmi03ckscbb5i.png")
+            png = $("#float_fb").attr('src').replace(/\?.*/, '').replace(/[\w\.]+$/, "widget.png")
             ;
         var val;
         for(var k in defaults)
@@ -25,13 +25,13 @@
         var status_ = 'hide'; // showing, hiding, show, hide
         $("body").append(
             ['<div id="float_fb_plugin" style="visibility:hidden">',
-            '<img src="'https://res.cloudinary.com/onepage/image/upload/v1572464052/user_14215/tyabh65kmi03ckscbb5i.png'" style="cursor:pointer;position:absolute;margin-left:-47px;" border=0 />',
+            '<img src="' + png + '" style="cursor:pointer;position:absolute;margin-left:-47px;" border=0 />',
             '<iframe scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
             '<a target="_blank" ',
                 'style="width:' + cfg.container_width + 'px;height:24px;line-height:24px; margin:0;padding:0;',
                 'padding-left:8px;position:absolute;bottom:-15px;background-color:#f6f7f8;',
                 'text-align:left;font-size:12px;color:gray;display:block;"',
-                ' href="https://www.facebook.com/AsociatiaBILF/">LIKE</a>',
+                ' href="http://pic.sopili.net/lnk/-/pilipress/float-fb/">get this widget</a>',
             '</div>'].join(''));
         var w = $("#float_fb_plugin");
 
